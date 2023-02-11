@@ -3,24 +3,47 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="Stars">
+            <div className="App">
+                <li>
+                    <figure className='book'>
+
+                        <ul className='hardcover_front'>
+                            <li className="textOnCover">
+
+                                    <p>Приятные записки </p>
+                                    <p>Для любимой</p>
+                                    <p>Лисы</p>
+
+                                {/*<img src="img/cover.jpg" alt="" width="100%" height="100%"/>*/}
+                            </li>
+                            <li></li>
+                        </ul>
+
+                        <ul className='page'>
+                            <li></li>
+                            <li>
+                                <a className="btn" href="#">Download</a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
+                        <ul className='hardcover_back'>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul className='book_spine'>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </figure>
+                </li>
+            </div>
+        </div>
+    );
 }
 
 export default App;
