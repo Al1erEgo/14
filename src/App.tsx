@@ -40,11 +40,6 @@ function App() {
         (window.innerHeight > 719 && window.innerWidth > 559) !== isBig && setIsBig((window.innerHeight > 719 && window.innerWidth > 559))
     })
 
-    console.log(complimentToShow.split('').length)
-    console.log(fontSizeToCompliment)
-    console.log(window.innerHeight)
-    console.log(window.innerWidth)
-
     return (
         <div className="Stars">
             <div className="App">
