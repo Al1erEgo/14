@@ -638,7 +638,7 @@ li::marker {
 }
 
 /* Media Queries */
-@media screen and (max-width: 35em) and (prefers-color-scheme: light),screen and (max-height: 45em) and (prefers-color-scheme: light) {
+@media screen and (max-width: 35em),screen and (max-height: 45em), (prefers-color-scheme: light) {
 	.align > li {
 		width: 100%;
 		min-height: 440px;
